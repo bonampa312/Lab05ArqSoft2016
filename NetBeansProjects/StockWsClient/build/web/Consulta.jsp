@@ -12,6 +12,14 @@
         <title>JSP Page</title>
     </head>
     <body>    
+         <ul class="nav nav-tabs">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="BuscarTodos.jsp">Buscar todos</a></li>
+            <li><a href="Consultar.jsp">Consultar</a></li>
+            <li><a href="Editar.jsp">Editar</a></li>
+            <li><a href="Eliminar.jsp">Eliminar</a></li>
+            <li><a href="Ingresar.jsp">Ingresar</a></li>
+        </ul>
     <%-- start web service invocation --%><hr/>
     <%
     try {
